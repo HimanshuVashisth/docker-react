@@ -1,4 +1,6 @@
-import React, { Component } from 'react';
+import React, {
+    Component
+} from 'react';
 import logo from './logo.svg';
 import './App.css';
 
@@ -9,12 +11,14 @@ class App extends Component {
             <
             header className = "App-header" >
             <
-            img src = { logo }
+            img src = {
+                logo
+            }
             className = "App-logo"
             alt = "logo" / >
             <
             p >
-            I am learner. <
+            This is the commit into feature <
             /p> <
             a className = "App-link"
             href = "https://reactjs.org"
